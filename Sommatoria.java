@@ -9,6 +9,7 @@ public class Sommatoria {
         System.out.print("Dammi un numero:");
         int y=scan.nextInt();
         int sum=0;
+        
         while(y!=0){
          sum=sum+y;
          System.out.println("La somma e': " +" "+ sum);
