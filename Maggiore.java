@@ -16,6 +16,8 @@ public class Maggiore {
             if(x>max){
                 max=x;
                
+            }else if(x==0){
+                break;
             }
         }
         System.out.println("Il massimo e': " + " " + max);
