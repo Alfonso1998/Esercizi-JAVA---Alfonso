@@ -3,7 +3,7 @@ public class Paridispari {
 
 
 
-    public static void PariDispari(){
+    public static void pariDispari(){
         Scanner scan=new Scanner(System.in);
         System.out.println("Dammi un numero:");
         int n=scan.nextInt();
@@ -14,7 +14,7 @@ public class Paridispari {
         }
     }
     public static void main(String[] args){
-        PariDispari();
+        pariDispari();
 
     }
 }

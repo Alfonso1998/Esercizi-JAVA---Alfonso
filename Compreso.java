@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Compreso {
     
-    public static void Compreso(){
+    public static void compreso(){
         Scanner scan= new Scanner(System.in);
         System.out.println("Dammi il primo numero");
         int a=scan.nextInt();
@@ -17,6 +17,6 @@ public class Compreso {
     }
 
     public static void main(String[] args){
-        Compreso.Compreso();
+        Compreso.compreso();
     }
 }
