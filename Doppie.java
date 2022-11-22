@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Doppie {
     
    
-    public static void doppie(){
+    public static Boolean doppie(){
         System.out.println("Scrivi qualcosa e ti diro' se ci sono doppie");
         Scanner input=new Scanner(System.in);
         boolean res=false;
@@ -11,13 +11,13 @@ public class Doppie {
         for(int i=0;i<str.length();i++){
             k++;
             if(str.charAt(k)==str.charAt(i)){
-                res=true;
-                System.out.println(res);
-            }else{
-                res=false;
-                System.out.println(res);
+                System.out.println("La frase ha almeno una doppia");
+                return true; 
             }
+            
+            return false;  
         }  
+      
         
     }
     
