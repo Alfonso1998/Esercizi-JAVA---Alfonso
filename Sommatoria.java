@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Sommatoria {
 
 
-    public static void sommatoria(){
+    public static void sommatrice(){
         Scanner scan=new Scanner(System.in);
         
         System.out.print("----SOMMATRICE----:\n");
@@ -20,6 +20,6 @@ public class Sommatoria {
 
     }
     public static void main(String[] args){
-        sommatoria();
+        sommatrice();
     }
 }
